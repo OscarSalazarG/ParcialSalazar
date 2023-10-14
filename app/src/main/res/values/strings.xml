@@ -8,10 +8,17 @@
     <string name="btnTK">T-Kambio</string>
     <string name="btnEdad">Edad a Días</string>
     <string name="btnContac">Contactos</string>
-    <string name="title_activity_menu">MenuActivity</string>
-    <string name="title_home">Divisas</string>
-    <string name="title_dashboard">Edades</string>
-    <string name="title_notifications">Contactos</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_etc">etcActivity</string>
+    <string name="tvDiv">Cambio de Divisas</string>
+    <string name="tvTipo">Ingrese tipo de cambio</string>
+    <string name="tvCant">Ingrese el monto en USD</string>
+    <string name="tvResult">El resultado en soles es de: </string>
+    <string name="tvBlank">Los billetes a entregar serían:</string>
+    <string name="tvBill100">Billetes de 100: </string>
+    <string name="tvBill50">Billetes de 50: </string>
+    <string name="tvBill20">Billetes de 20: </string>
+    <string name="btnCalcK">Calcular</string>
+    <string name="tvEdad">EDAD EN DÍAS</string>
+    <string name="tvFecha">Ingresa tu fecha de nacimiento</string>
+    <string name="tvResultEdad">Su edad en días es: </string>
+    <string name="btnCalcE">Calcular</string>
 </resources>
