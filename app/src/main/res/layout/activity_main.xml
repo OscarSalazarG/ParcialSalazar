@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="49dp"
+        android:text="@string/tvLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="@string/tvUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/tvUser"
+        app:layout_constraintTop_toBottomOf="@+id/tvUser" />
+
+    <TextView
+        android:id="@+id/tvPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/tvPassWord"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtUser" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/tvPass"
+        app:layout_constraintTop_toBottomOf="@+id/tvPass" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/btnLogin"
+        app:layout_constraintEnd_toEndOf="@+id/edtPass"
+        app:layout_constraintTop_toBottomOf="@+id/edtPass" />
+</androidx.constraintlayout.widget.ConstraintLayout>

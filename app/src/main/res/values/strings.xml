@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LabRepaso</string>
+    <string name="tvLogin">Login Multiapp</string>
+    <string name="tvUser">Email</string>
+    <string name="tvPassWord">Contraseña</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="tvMenu">Menú Multiapp</string>
+    <string name="btnTK">T-Kambio</string>
+    <string name="btnEdad">Edad a Días</string>
+    <string name="btnContac">Contactos</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home">Divisas</string>
+    <string name="title_dashboard">Edades</string>
+    <string name="title_notifications">Contactos</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_etc">etcActivity</string>
+</resources>

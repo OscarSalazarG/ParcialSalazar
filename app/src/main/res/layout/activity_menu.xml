@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:id="@+id/tvMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="137dp"
+        android:text="@string/tvMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/btnTK"
+        app:layout_constraintBottom_toTopOf="@+id/btnEdad"
+        app:layout_constraintStart_toStartOf="@+id/btnEdad" />
+
+    <Button
+        android:id="@+id/btnEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="266dp"
+        android:layout_marginEnd="132dp"
+        android:text="@string/btnEdad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnContactos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="12dp"
+        android:text="@string/btnContac"
+        app:layout_constraintEnd_toEndOf="@+id/btnEdad"
+        app:layout_constraintTop_toBottomOf="@+id/btnEdad" />
+</androidx.constraintlayout.widget.ConstraintLayout>
